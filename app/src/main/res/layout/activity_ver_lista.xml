@@ -24,10 +24,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
+                android:fontFamily="monospace"
                 android:text="Titulo"
                 android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="20sp"
                 android:textStyle="bold|italic" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:barrierDirection="right" >
+
+            </androidx.constraintlayout.widget.Barrier>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/alexandria_extrabold"
+                android:gravity="center"
+                android:text="GENERO"
+                android:textSize="24sp" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:barrierDirection="right" >
+
+            </androidx.constraintlayout.widget.Barrier>
 
             <ImageView
                 android:id="@+id/iconoGenero"
@@ -37,25 +65,83 @@
                 tools:src="@tools:sample/avatars" />
 
             <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/alexandria_extrabold"
+                android:gravity="center"
+                android:text="ID"
+                android:textSize="24sp" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:barrierDirection="right" />
+
+            <TextView
                 android:id="@+id/peliculaId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="id" />
+                android:gravity="center"
+                android:text="id"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/alexandria_extrabold"
+                android:gravity="center"
+                android:text="AÑO"
+                android:textSize="24sp" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:barrierDirection="right" >
+
+            </androidx.constraintlayout.widget.Barrier>
 
             <TextView
                 android:id="@+id/annotxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="Año" />
+                android:gravity="center"
+                android:text="Año"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/alexandria_extrabold"
+                android:gravity="center"
+                android:text="SINOPSIS"
+                android:textSize="24sp" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:barrierDirection="right" />
 
             <TextView
                 android:id="@+id/sinopsis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="sinopsis:" />
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="sinopsis:"
+                android:textSize="16sp" />
+
         </LinearLayout>
 
     </LinearLayout>
